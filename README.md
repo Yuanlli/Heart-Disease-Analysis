@@ -1,7 +1,7 @@
 # Heart-Disease-Analysis
 
 
-##Objective 
+## Objective 
 
 -Data exploration with SQL
 
