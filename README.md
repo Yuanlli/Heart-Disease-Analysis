@@ -13,7 +13,7 @@
 
 
 
-```
+```sql
 --amount of total female paticipants
 SELECT COUNT(Sex) AS Female 
 FROM dbo.heart_2020 
