@@ -11,6 +11,14 @@
 
 
 
+```sql
+-- Search for blanks if any *no blanks are found
+SELECT *
+FROM dbo.heart_2020
+WHERE AgeCategory IS NULL;
+```
+
+
 
 
 ```sql
