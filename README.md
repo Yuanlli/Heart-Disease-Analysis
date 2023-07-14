@@ -13,11 +13,12 @@
 ### Data Cleaning -search for blanks
 
 ```sql
--- Search for blanks if any *no blanks are found
+-- Search for blanks if any
 SELECT *
 FROM dbo.heart_2020
 WHERE AgeCategory IS NULL;
 ```
+No blanks are found
 
 
 
