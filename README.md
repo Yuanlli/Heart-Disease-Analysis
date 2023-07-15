@@ -10,7 +10,7 @@
 -Heart health analytics to health hospitals find out the people who suffered from heart disease.  
 
 
-### Data Cleaning -search for blanks
+### Data Cleaning 
 
 ```sql
 -- Search for blanks if any
