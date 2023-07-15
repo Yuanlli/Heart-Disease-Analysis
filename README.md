@@ -29,3 +29,18 @@ SELECT COUNT(Sex) AS Female
 FROM dbo.heart_2020 
 WHERE Sex = 'Female'
 ```
+
+```sql
+--amount of total male paticipants
+SELECT COUNT(Sex) AS Male
+FROM dbo.heart_2020
+WHERE Sex ='Male'
+```
+
+```sql
+-- Select the Heartdisease positives and narrow down columns 
+SELECT HeartDisease, Sex, AgeCategory, Smoking, Diabetic 
+FROM dbo.heart_2020 
+WHERE HeartDisease = 1 
+ORDER BY AgeCategory
+```
