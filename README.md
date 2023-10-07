@@ -42,6 +42,10 @@ SELECT COUNT(Sex) AS Male
 FROM dbo.heart_2020
 WHERE Sex ='Male'
 ```
+Total amount of male participants of the survey is 151990.
+
+![Capture2](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/c6fc43b2-1dc1-440e-bc3c-06b8189fb3e6)
+
 
 ```sql
 -- Select the Heartdisease positives and narrow down columns 
