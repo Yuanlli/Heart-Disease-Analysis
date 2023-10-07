@@ -30,6 +30,12 @@ FROM dbo.heart_2020
 WHERE Sex = 'Female'
 ```
 
+Total amount of female participants of the survey is 167805
+
+![Capture1](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/298dab97-2ed3-4cd6-a935-63c5df4e9a3b)
+
+
+
 ```sql
 --amount of total male paticipants
 SELECT COUNT(Sex) AS Male
