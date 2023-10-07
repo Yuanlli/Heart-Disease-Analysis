@@ -55,6 +55,8 @@ WHERE HeartDisease = 1
 ORDER BY AgeCategory
 ```
 
+
+
 ```sql
 -- Determine the group with higher risks of heart problems, arranged by older age
 SELECT HeartDisease, Stroke, AgeCategory, Diabetic,
