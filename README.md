@@ -54,6 +54,7 @@ WHERE HeartDisease = 1
 ORDER BY AgeCategory
 ```
 Total number of all participants who has a postive in heart disease is 27373.
+
 ![Capture SQL for dbo heart 2020](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/f99c038a-42bc-43b0-90b8-f0df32451866)
 
 
