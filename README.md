@@ -66,7 +66,13 @@ CASE
    WHEN HeartDisease = 1 AND Stroke = 1 THEN 'HighRisk'
    WHEN Diabetic = 'Yes' THEN 'ChronicDisease'
    ELSE 'Normal'
-END
+END AS DiseaseLevel
 FROM dbo.heart_2020
 Order BY AgeCategory DESC
 ```
+Using CASE, ELSE, ORDER BY commands to filter out and determine the indviduals with the disease risk level. 
+Individuals with positive heart disease and stroke are the most high risk indivuduals.
+
+![Capture SQL for dbo heart 2020 2](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/8b4f6693-bcdb-4f86-9ce1-24e5ffc63b05)
+
+
