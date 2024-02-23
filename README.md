@@ -30,7 +30,7 @@ FROM dbo.heart_2020
 WHERE Sex = 'Female'
 ```
 
-Total amount of female participants of the survey is 167805
+Total amount of female participants of the survey is 167805.
 
 ![Capture1](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/298dab97-2ed3-4cd6-a935-63c5df4e9a3b)
 
@@ -74,7 +74,7 @@ END AS DiseaseLevel
 FROM dbo.heart_2020
 Order BY AgeCategory DESC
 ```
-Using CASE, ELSE, ORDER BY commands to filter out and determine the indviduals with the disease risk level. 
+Using CASE, ELSE, ORDER BY statements to filter out and determine the indviduals with the disease risk level. 
 Individuals with positive heart disease and stroke are the most high risk indivuduals.
 
 ![Capture SQL for dbo heart 2020 2](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/8b4f6693-bcdb-4f86-9ce1-24e5ffc63b05)
