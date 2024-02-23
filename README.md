@@ -12,8 +12,9 @@
 
 ### Data Cleaning 
 
+#### 1) Search for blanks if any
+
 ```sql
--- Search for blanks if any
 SELECT *
 FROM dbo.heart_2020
 WHERE AgeCategory IS NULL;
@@ -21,9 +22,9 @@ WHERE AgeCategory IS NULL;
 No blanks are found
 
 
+#### 2) Determine total number of female paticipants
 
 ```sql
---amount of total female paticipants
 SELECT COUNT(Sex) AS Female 
 FROM dbo.heart_2020 
 WHERE Sex = 'Female'
@@ -35,8 +36,9 @@ Total amount of female participants of the survey is 167805
 
 
 
+#### 3) Determine total number of female paticipants
+
 ```sql
---amount of total male paticipants
 SELECT COUNT(Sex) AS Male
 FROM dbo.heart_2020
 WHERE Sex ='Male'
@@ -46,8 +48,9 @@ Total amount of male participants of the survey is 151990.
 ![Capture2](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/c6fc43b2-1dc1-440e-bc3c-06b8189fb3e6)
 
 
+#### 4) Select the Heartdisease positives and narrow down columns 
+
 ```sql
--- Select the Heartdisease positives and narrow down columns 
 SELECT HeartDisease, Sex, AgeCategory, Smoking, Diabetic 
 FROM dbo.heart_2020 
 WHERE HeartDisease = 1 
@@ -59,8 +62,9 @@ Total number of all participants who has a postive in heart disease is 27373.
 
 
 
+#### 5) Determine the group with higher risks of heart problems, arranged by older age
+
 ```sql
--- Determine the group with higher risks of heart problems, arranged by older age
 SELECT HeartDisease, Stroke, AgeCategory, Diabetic,
 CASE
    WHEN HeartDisease = 1 AND Stroke = 1 THEN 'HighRisk'
