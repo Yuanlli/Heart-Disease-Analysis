@@ -48,7 +48,7 @@ Total amount of male participants of the survey is 151990.
 ![Capture2](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/c6fc43b2-1dc1-440e-bc3c-06b8189fb3e6)
 
 
-#### 4) Select the Heartdisease positives and narrow down columns 
+#### 4) Select the HeartDisease positives and narrow down columns 
 
 ```sql
 SELECT HeartDisease, Sex, AgeCategory, Smoking, Diabetic 
