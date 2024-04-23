@@ -81,7 +81,7 @@ Individuals with positive heart disease and stroke are the most high risk indivu
 
 
 
-#### 6) 
+#### 6) Determine the highest risk group with heart disease and stroke.
 
 ```sql
 SELECT *
