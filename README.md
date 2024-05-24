@@ -93,12 +93,12 @@ CASE
 END
 FROM dbo.heart_2020
 Order BY AgeCategory DESC
-
+```
 ![Capture3](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/be72485c-57ab-4600-8006-290b279590c0)
 
 
 
-
+```sql
 SELECT HeartDisease,AgeCategory,
 CASE
    WHEN HeartDisease = '1' THEN 'HighRisk'
