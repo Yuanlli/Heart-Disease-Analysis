@@ -84,27 +84,27 @@ Individuals with positive heart disease and stroke are the most high risk indivu
 #### 6) Determine the highest risk group with heart disease and stroke.
 
 ```sql
-SELECT *
-FROM dbo.heart_2020
-
-SELECT HeartDisease, Sex, AgeCategory, Smoking, Diabetic 
-FROM dbo.heart_2020 
-WHERE HeartDisease = 1 
-ORDER BY AgeCategory
 
 SELECT HeartDisease, Stroke, AgeCategory, Diabetic,
 CASE
    WHEN HeartDisease = 1 AND Stroke = 1 THEN 'HighRisk'
-   WHEN Diabetic = 'Yes' THEN 'ChronicDisease' 
-   ELSE 'Normal' 
-END AS DiseaseLevel
+   WHEN Diabetic = 'Yes' THEN 'ChronicDisease'
+   ELSE 'Normal'
+END
 FROM dbo.heart_2020
 Order BY AgeCategory DESC
 
-SELECT Stroke
+![Capture3](https://github.com/Yuanlli/Heart-Disease-Analysis/assets/35889216/be72485c-57ab-4600-8006-290b279590c0)
+
+
+
+
+SELECT HeartDisease,AgeCategory,
+CASE
+   WHEN HeartDisease = '1' THEN 'HighRisk'
+   
+END
 FROM dbo.heart_2020
-WHERE Stroke = 1
-GROUP BY AgeCategory
 ```
 
 
