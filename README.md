@@ -1,6 +1,6 @@
 # Heart Disease Analysis - SQL Data exploration
 
-Utlised Microsoft SQL Server.
+Utilised Microsoft SQL Server.
 
 ## Objective 
 
