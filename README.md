@@ -1,5 +1,6 @@
 # Heart Disease Analysis - SQL Data exploration
 
+Utlised Microsoft SQL Server.
 
 ## Objective 
 
@@ -8,6 +9,7 @@
 -To find out the factors most likely lead to heart disease.  
 
 -Heart health analytics to help health hospitals find out high risk groups.  
+
 
 
 ### Data Cleaning 
